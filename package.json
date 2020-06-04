@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "React prototype bot for CINQ Technologies intranet",
   "main": "index.js",
+  "engine": {
+    "node": "12.14.0",
+    "npm": "6.13.4"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mateus Santos",
