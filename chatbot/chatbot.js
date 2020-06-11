@@ -36,13 +36,15 @@ module.exports = {
             }
         };
 
+        try {
+            let responses = await sessionClient
+                .detectIntent(request);
 
-        let responses = await sessionClient
-            .detectIntent(request)
-            .catch(error => {
-                throw new Error(error);
-            });
-        responses = await self.handleAction(responses);
+            responses = await self.handleAction(responses);
+        }
+        catch (error) {
+            next(error);
+        }
 
         return responses;
     },
