@@ -68,7 +68,7 @@ module.exports = {
         return responses;
     },
 
-    handleAction: function (responses) {
+    handleAction: async function (responses) {
         return responses;
     }
 }
