@@ -5,10 +5,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors({
-        origin: 'http://localhost:3000',
-        optionsSuccessStatus: 200
-}))
+app.use(cors());
 
 require('./routes/dialogFlowRoutes')(app); 
 console.log(process.env)
