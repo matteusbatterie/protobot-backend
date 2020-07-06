@@ -23,6 +23,7 @@
     "heroku": "^7.42.2"
   },
   "devDependencies": {
+    "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
   }
 }
