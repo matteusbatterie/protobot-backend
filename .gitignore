@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+#
+.idea
+.proto-bot01-jwmphe-2c7ebab1b52d
+config/development.js
