@@ -1,2 +1,2 @@
-# proto-bot
-Prototype bot for CINQ Technologies internal system, the intranet
+# ProtoBot - Backend application
+Backend application of the prototype bot for the CINQBot.
